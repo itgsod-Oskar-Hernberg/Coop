@@ -1,9 +1,9 @@
 body	{
-	background-color: #292929;
+	/*background-color: #292929;*/
 }
 
 div#container {
-	position: absolute;
+	position: relative;
 	left:50%;
 	top: 50px;
 	margin-left: -410px;
@@ -11,7 +11,7 @@ div#container {
 
 div#container2 {
 	position: relative;
-	top: -50px;
+	top: -30px;
 	height: 100px;
 	margin-left: -410px;
 
@@ -19,13 +19,23 @@ div#container2 {
 
 div#headerlayer{
 	position: relative;
-	background-color: black;
+	background-color: gray;
 	height: 200px;
 	width: 4000px;
 	left: 50%;
 	margin-left: -875px;
 	
 
+}
+
+div#headerlogo {
+	position: relative;
+	height: 20px;
+	width: 400px;
+	left:50%;
+	margin-left: -1250px;
+	background-color: yellow
+	top:100px;
 }
 
 div#header {
@@ -35,13 +45,13 @@ div#header {
 	width: 800px;
 	left: 50%;
 	margin-left: -1330px;
-	top:150px;
+	top:115px;
 	border-radius: 15px;
 }
 
 h1#headerh1 {
 	color: red;
-	margin-left: 115px;
+	margin-left: 310px;
 }
 
 div#content {
@@ -53,9 +63,13 @@ div#content {
 	border-radius: 40px;
 }
 
-div#menu {
-	position: absolute;
-	top: 100px;
-	height: 1200px;
-	width: 
+#menu ul{
+  list-style: none;
+  padding-top: 10px;
+}
+
+#menu li{
+  display: inline;
+  padding-right: 140px;
+  
 }
