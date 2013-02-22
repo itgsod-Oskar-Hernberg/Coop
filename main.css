@@ -19,6 +19,7 @@ div#container2 {
 	top: -1480px;
 	height: 100px;
 	margin-left: -410px;
+	width: 2000px;
 
 }
 
@@ -26,9 +27,10 @@ div#headerlayer{
 	position: relative;
 	background-color: #989898; 
 	height: 200px;
-	width: 4000px;
+	width: 100%;
 	left: 50%;
-	margin-left: -875px;
+	margin-left: -680px;
+	top: 0px;
 	
 
 }
@@ -38,7 +40,7 @@ div#headerlogo {
 	height: 20px;
 	width: 400px;
 	left:50%;
-	margin-left: -1250px;
+	margin-left: -710px;
 	background-color: yellow
 	top:100px;
 }
@@ -49,7 +51,7 @@ div#header {
 	height: 50px;
 	width: 800px;
 	left: 50%;
-	margin-left: -1330px;
+	margin-left: -810px;
 	top:120px;
 	border-radius: 15px;
 }
@@ -68,12 +70,13 @@ div#content {
 	border-radius: 40px;
 }
 
+
 table#data {
 	position: relative;
 	width: 700px;
 	top: -1000px;
-	margin-left: -810px;
-	left: 50%;
+	/*margin-left: -710px;*/
+	left: 3%;
 	margin-top: 0;
 	background: #FFFFFF;
 	border: 1px solid #333333;
@@ -107,6 +110,7 @@ caption {
 
 #menu li{
   display: inline;
-  padding-right: 130px;
+  padding-right: 50px;
+  font-size: 25px;
   
 }
